@@ -9,7 +9,6 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 $arrPostData = array();
 //$arrPostData['to'] = "U9d4db29b76910af5a6679e56a3a96172";
-//$arrPostData['to'] = "1cb155bc-e8bf-47e1-8bbb-3b49e4ffc7ad";
 $arrPostData['to'] = "Cf6873f721004b548268efa4c3497c268";
 
 $arrPostData['messages'][0]['type'] = "text";
