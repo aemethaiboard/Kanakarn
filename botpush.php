@@ -17,7 +17,7 @@ $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello world');
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
-echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
+echo $response->getHTTPStatus() . ' ' . $response->getRawBody() . "AEME";
 
 
 
