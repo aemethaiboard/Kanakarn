@@ -19,7 +19,7 @@ if (!is_null($events['events'])) {
 			// Get text sent
 			//$text = $event['source']['userId'];
 			$text = $event['source']['groupId'];
-			//$text = "AEME";
+			//$text = "AEMEzz";
 			
 			// Get replyToken
 			$replyToken = $event['replyToken'];
