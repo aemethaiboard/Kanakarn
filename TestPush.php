@@ -12,7 +12,7 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 $arrPostData = array();
 $arrPostData['to'] = "U9d4db29b76910af5a6679e56a3a96172";
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "นี้คือการทดสอบ Push Message ".'$group $contact อิอิ';
+$arrPostData['messages'][0]['text'] = "นี้คือการทดสอบ Push Message "+" อิอิ";
 
  
 $ch = curl_init();
